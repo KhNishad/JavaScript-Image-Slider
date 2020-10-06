@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.slides{
+    display: flex;
+    margin-top: 80px;
+    text-align: center;
+  
+}
+.slide{
+    min-width: 100%;
+}
+.slide img{
+    width: 800px;
+}
